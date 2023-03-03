@@ -10,23 +10,23 @@ load_dotenv()
 API_ID = int(getenv("API_ID", "16841147"))
 API_HASH = getenv("API_HASH", "724367ca3534a7e37594fcf3512dc8ad")
 
-BOT_TOKEN = getenv("BOT_TOKEN", "5861787158:AAFSeyWt9y2wiOKZH4CMm0Jw8WSn0ffXuuI")
+BOT_TOKEN = getenv("BOT_TOKEN", "5053006623:AAEh-5ooF2VP9G_djXafPNHdr5W0PIJt3kc")
 
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://unk0:unk@cluster0.05tiqap.mongodb.net/?retryWrites=true&w=majority")
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001632249971"))
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "UNK")
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001849894395"))
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "EBD")
 
-OWNER_ID = list(map(int, getenv("OWNER_ID", "1211015395").split()))
+OWNER_ID = list(map(int, getenv("OWNER_ID", "5074731548").split()))
 
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
 
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://t.me/UNK_BOTS")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://t.me/EBD_524")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/UNK_BOTS")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/UNK_SUPPORT")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/EBD_524")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/EBD_WORLD")
 
 SUPPORT_HEHE = SUPPORT_GROUP.split("me/")[1]
 
