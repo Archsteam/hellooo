@@ -10,9 +10,9 @@ load_dotenv()
 API_ID = int(getenv("API_ID","23112604"))
 API_HASH = getenv("API_HASH","117564565390a7f9b970caecb521954e")
 
-BOT_TOKEN = getenv("BOT_TOKEN","6699545019:AAEpiZOV_aELG6yC7fvpF9AjUIEB3aO2gAw")
+BOT_TOKEN = getenv("BOT_TOKEN","6699545019:AAGmfgolDxro-dNiU2Dmhsvrym9YryAetV4")
 
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://hunt:hunt@cluster0.41atokv.mongodb.net/?retryWrites=true&w=majority")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://python:python@cluster0.lwezs.mongodb.net/?retryWrites=true&w=majority")
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001920676659"))
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "MaryaX")
 
@@ -25,8 +25,8 @@ UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/Alone45-45/Ytdl")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/STAR_DP_CHANNEL")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/YARO_KA_KAFILA_OP")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/nishant_editzx")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/SANA_World_A")
 
 SUPPORT_HEHE = SUPPORT_GROUP.split("me/")[1]
 
